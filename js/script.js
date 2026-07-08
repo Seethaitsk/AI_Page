@@ -251,6 +251,16 @@ if (accordionEl && serviceVisualImg) {
             }
         }
     });
+
+    // Auto-scroll to the opened item to prevent violent jumping on mobile
+    accordionEl.addEventListener('shown.bs.collapse', (e) => {
+        const item = e.target.closest('.accordion-item');
+        if (item) {
+            // Offset for sticky navbar + some breathing room
+            const y = item.getBoundingClientRect().top + window.scrollY - 100;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    });
 }
 
 // ---------- Industry use cases ----------
@@ -486,10 +496,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.scrollTo({ top: y, behavior: 'smooth' });
 
             if (button.classList.contains('collapsed')) {
-                // We assume bootstrap is globally available
-                if (typeof bootstrap !== 'undefined') {
-                    new bootstrap.Collapse(collapseEl, { show: true });
-                }
+                button.click();
             }
 
             item.classList.add('chip-jump-highlight');
