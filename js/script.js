@@ -129,7 +129,7 @@ const services = [
     {
         key: 'chatbot',
         icon: 'bi-chat-dots',
-        img: 'Chatbot.jpeg',
+        img: 'images/Chatbot.jpeg',
         title: 'AI chatbot development',
         tagline: 'Intelligent customer engagement through chatbots that give instant, accurate, personalized responses across web, mobile, and messaging.',
         offer: ['Website chatbots', 'Customer support automation', 'WhatsApp & social media bots', 'Lead generation chatbots', 'Appointment booking assistants'],
@@ -139,7 +139,7 @@ const services = [
     {
         key: 'agents',
         icon: 'bi-robot',
-        img: 'customai.jpeg',
+        img: 'images/customai.jpeg',
         title: 'Custom AI agents',
         tagline: 'Smart digital assistants that handle complex tasks, retrieve information, and automate business workflows end to end.',
         offer: ['HR assistants', 'Sales assistants', 'Internal knowledge agents', 'Workflow automation agents', 'Customer service agents'],
@@ -149,7 +149,7 @@ const services = [
     {
         key: 'genai',
         icon: 'bi-magic',
-        img: 'genai.jpeg',
+        img: 'images/genai.jpeg',
         title: 'Generative AI solutions',
         tagline: 'High-quality content, reports, marketing materials, and business documents generated with advanced generative AI.',
         offer: ['Content generation', 'Marketing copy', 'Product descriptions', 'Business documentation', 'Report summarization'],
@@ -159,7 +159,7 @@ const services = [
     {
         key: 'automation',
         icon: 'bi-diagram-2',
-        img: 'ai_assistant.png',
+        img: 'images/ai_assistant.png',
         title: 'AI workflow automation',
         tagline: 'Eliminate manual tasks across documents, invoices, emails, and approvals with AI-powered workflow automation.',
         offer: ['Document processing', 'Invoice automation', 'Email automation', 'Data entry automation', 'Approval workflows'],
@@ -169,7 +169,7 @@ const services = [
     {
         key: 'analytics',
         icon: 'bi-bar-chart-line',
-        img: 'ai_brain.png',
+        img: 'images/ai_brain.png',
         title: 'Data analytics & business intelligence',
         tagline: 'AI-powered analytics that turn raw data into actionable insight using real-time and predictive intelligence.',
         offer: ['Business dashboards', 'Predictive analytics', 'Sales forecasting', 'Customer insights', 'Performance reporting'],
@@ -179,7 +179,7 @@ const services = [
     {
         key: 'vision',
         icon: 'bi-camera-video',
-        img: 'ai_assistant.png',
+        img: 'images/ai_assistant.png',
         title: 'Computer vision solutions',
         tagline: 'Intelligent image and video analysis that automates inspection, strengthens security, and improves accuracy.',
         offer: ['Object detection', 'Face recognition', 'OCR solutions', 'Quality inspection systems', 'Video analytics'],
@@ -189,7 +189,7 @@ const services = [
     {
         key: 'nlp',
         icon: 'bi-translate',
-        img: 'ai_brain.png',
+        img: 'images/ai_brain.png',
         title: 'Natural language processing',
         tagline: 'NLP that helps organizations understand, process, and analyze text and speech data effectively.',
         offer: ['Sentiment analysis', 'Language translation', 'Speech recognition', 'Text classification', 'Document summarization'],
@@ -199,7 +199,7 @@ const services = [
     {
         key: 'consulting',
         icon: 'bi-lightbulb',
-        img: 'ai_assistant.png',
+        img: 'images/ai_assistant.png',
         title: 'AI consulting & strategy',
         tagline: 'Identify AI opportunities, build an implementation strategy, and maximize ROI with a future-ready roadmap.',
         offer: ['AI readiness assessment', 'AI strategy development', 'Technology consulting', 'Solution architecture', 'AI adoption planning'],
